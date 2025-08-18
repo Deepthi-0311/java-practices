@@ -1,0 +1,14 @@
+import java.util.*;
+class main {
+    public static void main (String args[]){
+        Scanner sr = new Scanner(System.in);
+        String RCB = sr.nextLine();
+        if(RCB.equals("win"))
+        {
+            System.out.println("Esale cup namdhey");
+        }
+        else{
+             System.out.println("cup illa");
+        }
+    }
+}

@@ -1,0 +1,20 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sr = new Scanner(System.in);
+        String colour = sr.nextLine();
+        if(colour.equals("red")){
+            System.out.println("Stop");
+        }
+        else if(colour.equals("yellow")){
+            System.out.println("Get ready");
+        }
+        else if(colour.equals("Green")){
+            System.out.println("Go");
+        }
+    }
+} 
+
+
+Output :               Input : 
+         stop                  red

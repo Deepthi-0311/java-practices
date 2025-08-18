@@ -1,0 +1,20 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args){
+        Scanner sr = new Scanner(System.in);
+        String Name = sr.nextLine();
+        int score = sr.nextInt();
+        sr.nextLine();
+        String Department = sr.nextLine();
+        int score1 = score/10;
+        System.out.println("My name is " + Name);
+        System.out.println("My score is " + score1);
+        System.out.println("My Department is " + Department);
+    }
+
+
+output :                              Input :
+                                           
+ My name is Deepika                     Deepika
+ My score is 18                         180
+ My Department is CSE                   CSE

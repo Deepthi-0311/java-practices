@@ -1,0 +1,23 @@
+import java.util.*;
+class main{
+    public static void main(String args[]){
+       int[]score = new int[5];
+       Scanner sr = new Scanner (System.in);
+       score[0] = sr.nextInt();
+       score[1] = sr.nextInt();
+       score[2] = sr.nextInt();
+       score[3] = sr.nextInt();
+       score[4] = sr.nextInt();
+       int total = (score[0]+score[1]+score[2]+ score[3]+score[4]);
+       System.out.println("your total mark is :" + total);
+    }
+       
+}
+
+Input :           Output : 
+ 1                         your total mark : 5
+ 1
+ 1
+ 1
+ 1
+ 

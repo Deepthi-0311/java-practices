@@ -1,0 +1,29 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sr = new Scanner(System.in);
+        System.out.println("Enter your tamil mark :");
+        int tamil=sr.nextInt();
+        System.out.println("Enter your english mark :");
+        int english=sr.nextInt();
+        System.out.println("Enter your maths mark :");
+        int maths=sr.nextInt();
+        System.out.println("Enter your science mark :");
+        int science=sr.nextInt();
+        System.out.println("Enter your social mark :");
+        int social=sr.nextInt();
+        
+        int totalmark = tamil+english+maths+science+social ;
+        int avg = totalmark/5 ;
+        if(avg<35){
+            System.out.println("additional class is required");
+        }
+        else{
+            System.out.print("You are good");
+        }
+    }   
+}
+  
+
+
+

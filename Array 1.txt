@@ -1,0 +1,25 @@
+class main{
+    public static void main(String args[]){
+        String one = "song1";
+        String two = "song2";
+        String three = "song3";
+        String four = "song4";
+        String[] playlist = new String[4];
+        playlist[0]="song1";
+        System.out.println("song1");
+         playlist[1] = "song2";
+         System.out.println("song2");
+        playlist[2] = "song3";
+         System.out.println("song3");
+          playlist[3] = "song4";
+         System.out.println("song4");
+         
+    }
+    
+}
+
+Output :
+          song1
+          song2
+          song3
+          song4

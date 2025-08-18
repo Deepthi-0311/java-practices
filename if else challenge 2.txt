@@ -1,0 +1,26 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sr = new Scanner(System.in);
+        System.out.println("Enter your score :");
+        int score = sr.nextInt();
+        if(score<50){
+            System.out.println("You need to improve");
+        }
+        else if(score==50 || score>50 && score<70){
+            System.out.println("Good job");
+        }
+        else if(score<=70){
+            System.out.println("Excellant performance");
+        }
+            
+        }
+    }
+
+
+
+output: 
+ 
+   Enter your score : 70
+                     
+    Excellant performance

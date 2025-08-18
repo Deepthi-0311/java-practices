@@ -1,0 +1,16 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sr = new Scanner(System.in);
+       int num1 = sr.nextInt();
+       int num2 = sr.nextInt();
+       int result = num1<num2? num1:num2;
+       System.out.println("result " + result);
+    }
+}
+
+Input : 
+       6
+       4
+Output :
+        result 4

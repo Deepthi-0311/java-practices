@@ -1,0 +1,28 @@
+import java.util.*;
+class main {
+    public static void main (String args[]){
+        Scanner sr = new Scanner(System.in);
+        System.out.println("Enter the num 1 = ");
+        int num1 = sr.nextInt();
+        System.out.println("Enter the num 2 = ");
+        int num2 = sr.nextInt();
+        if(num1==num2)
+        {
+            System.out.println("both numbers are equal");
+        }
+        else{
+            System.out.println("not equal");
+        }
+    }
+}
+
+
+input and output : 
+
+   Enter the num 1 = 6
+                          
+   Enter the num 2 = 6
+
+both numbers are equal
+
+=== Code Execution Successful ===
